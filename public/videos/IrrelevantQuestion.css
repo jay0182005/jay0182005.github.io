@@ -1,0 +1,61 @@
+/* IrrelevantQuestion.css */
+.question-wrapper {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.question-card, .city-selection {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+.title {
+    font-size: 2rem;
+    color: #2d3748;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.button-group {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4299e1;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    background-color: #3182ce;
+    transform: translateY(-2px);
+}
+
+.next-button {
+    margin-top: 20px;
+    min-width: 120px;
+}
+
+.city-selection h1 {
+    font-size: 1.8rem;
+    color: #2d3748;
+    margin-bottom: 30px;
+}

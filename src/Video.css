@@ -1,0 +1,76 @@
+/* Video.css */
+.container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #e6f3ff, #ffffff);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+  }
+  
+  .welcome-content {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1e40af;
+    margin-bottom: 2rem;
+    animation: fadeIn 0.5s ease-in;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  button {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+  }
+  
+  .video-content {
+    text-align: center;
+  }
+  
+  .video-content h1 {
+    font-size: 1.875rem;
+    font-weight: bold;
+    color: #1f2937;
+    margin-bottom: 1.5rem;
+  }
+  
+  .video-wrapper {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  video {
+    max-width: 48rem;
+    width: 100%;
+    display: block;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
